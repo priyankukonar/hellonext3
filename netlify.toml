@@ -1,12 +1,12 @@
 [build]
   command = "npm run build"
-  publish = ".next"
+  publish = "out"
 
 [functions]
   node_bundler = "esbuild"
 
 [[plugins]]
-  package = "netlify-plugin-cypress"
+  package = "@netlify/plugin-nextjs"
 
 ## Learn more about redirects here
 ## https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
