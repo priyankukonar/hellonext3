@@ -3,7 +3,7 @@ export default function Header({ title }) {
     <>
       <h1 className="title">{title}</h1>
       <p>
-        Happy coding !!
+        Stay safe !!
       </p>
     </>
   );
