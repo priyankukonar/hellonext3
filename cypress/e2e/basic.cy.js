@@ -5,10 +5,10 @@ describe('empty spec', () => {
 
   it('displays the resources text', () => {
     cy.get('h1')
-    .contains('Next.js Toolbox');
+      .contains('Welcome to Haystack');
   })
   it('renders the form', () => {
     cy.get('form')
-    .should('be.visible')
+      .should('be.visible')
   })
 })
